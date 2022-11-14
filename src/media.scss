@@ -1,0 +1,346 @@
+
+@media screen and(max-width: 768px) {
+  
+  //section-1 media start
+  .section-1 {
+    width: 100%;
+    .container-1 {
+      height: 550px;
+      .image-1 {
+        width: 390px;
+        height: 230px;
+        img {
+          width: 100%;
+          height: 100%;
+          margin-top: 180px;
+          bottom: 0;
+        }
+        p {
+          width: 300px;
+          height: 130px;
+          font-size: 24px;
+          top: 300px;
+          left: 15px;
+        }
+        button {
+          top: 430px;
+          left: 15px;
+          top: 445px;
+        }
+      }
+      .image-2 {
+        display: none;
+      }
+      .image-2-none {
+        display: block;
+        width: 390px;
+        height: 320px;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        img {
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  //section-1 media end
+
+  // section-2 media start
+
+  .section-2 {
+    width: 100%;
+  }
+  .full {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 10px;
+    padding: 5px;
+    .form-head {
+      width: 300px;
+      h1 {
+        width: 100%;
+        text-align: center;
+        break-after: auto;
+        font-size: 25px;
+      }
+      p {
+        width: 100%;
+      }
+    }
+    .form-body {
+      width: 100%;
+      .form-valid {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        width: 350px;
+        .form-box {
+          margin: 0;
+          margin-top: 10px;
+        }
+      }
+      .form-check {
+        input {
+          row-gap: 50px;
+        }
+      }
+    }
+  }
+
+  // section-2 media end
+
+  // section-3 media start
+
+  .section-3 {
+    width: 100%;
+    .group-people {
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 40px;
+      .people {
+        width: 370px;
+        height: 300px;
+        top: 0;
+        img {
+          width: 100%;
+          height: 100%;
+          top: 0;
+        }
+      }
+      .people-text {
+        width: 330px;
+        height: 200px;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        top: 0;
+        .para-1 {
+          font-size: 25px;
+          width: 100%;
+          margin-top: 10px;
+        }
+        .para-2 {
+          width: 100%;
+          // height: 150px;
+          font-size: 16px;
+          margin-top: -30px;
+        }
+      }
+    }
+  }
+
+  // section-3 end
+
+  // section-4 start
+
+  .section-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sec-4-text {
+      width: 300px;
+      h1 {
+        width: 100%;
+        text-align: center;
+        break-after: auto;
+        font-size: 25px;
+      }
+      p {
+        width: 100%;
+      }
+    }
+    .cards {
+      left: 0;
+      width: 100%;
+      .card {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+        .content{
+          p{
+            font-size: 20px;
+          }
+          .title{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  // section-5 start
+  .section-5 {
+    width: 100%;
+  }
+  .section-5 {
+    width: 100%;
+    .sec-5-text {
+      h1 {
+        font-size: 25px;
+      }
+    }
+    .brand {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+    }
+  }
+
+  // section-6 start
+  .section-6 {
+    width: 100%;
+  .operation {
+    width: 100%;
+    .sec-6-text {
+      width: 330px;
+      height: 90px;
+      margin-left: 30px;
+      h1 {
+        width: 100%;
+        height: 100%;
+        font-size: 28px;
+      }
+    }
+    .work-operation {
+      margin-top: 110px;
+      padding: 0;
+      .work-force {
+        width: 330px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 20px;
+        .work-men {
+          width: 60px;
+          height: 60px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        p {
+          width: 210px;
+          height: 45px;
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+    }
+    .operation-btn {
+      margin-top: 30px;
+    }
+  }
+}
+
+  // section-6 end
+
+  // section-7 start
+
+  .section-7 {
+    width: 100%;
+  .explore {
+    .job-navigation {
+      display: flex;
+      flex-direction: column;
+      .job-text {
+        width: 330px;
+        height: 145px;
+        margin-left: -30px;
+        margin-top: -20px;
+        h1 {
+          font-size: 25px;
+        }
+      }
+      .job-btn {
+        display: none;
+      }
+    }
+  }
+}
+
+  // section-7 media end
+
+  // section-8 media start
+
+  .section-8 {
+    width: 100%;
+  }
+  .sec-8 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .news {
+      width: 350px;
+      margin-top: -30px;
+      h1 {
+        width: 100%;
+        font-size: 25px;
+      }
+    }
+    .slider {
+      width: 100%;
+      height: 450px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      margin-top: 30px;
+      .card {
+        width: 100%;
+      }
+    }
+  }
+
+  //section-8 media end
+
+  // foter media start
+
+  footer{
+    width: 100%;
+    .foot{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      p{
+        text-align: center;
+        margin-top: 5px;
+      }
+      .p-1{
+        margin-top: -3px;
+      }
+    }
+  }
+
+  // footer media end
+
+}
+
+// media query end

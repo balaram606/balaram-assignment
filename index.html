@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betterplace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/nav.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/media.css">
+</head>
+
+<body>
+    <!-- Header Part Start -->
+
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+                <img src="../public/images/Group 5.svg" alt="">
+            </label>
+            <ul>
+                <li class="nav-btn">
+                    <a class="active" href="#">
+                        <button>Schedule Demo</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header Part End -->
+    <!-- Section-1 Part Start -->
+    <section class="section-1">
+        <div class="container-1">
+            <div class="image-1">
+                <img src="./public/images/Path 30273@2x.png" alt="">
+                <p>Solve all <span class="txt-col">blue-collar</span> <br><span class="txt-col"> management</span>
+                    challenges <br> with one <span class="txt-col">comprehensive</span> <br> <span class="txt-col">HRM
+                        software</span></p>
+                <button>Schedule to call today!</button>
+            </div>
+            <div class="image-2">
+                <img src="./public/images/Mask Group 47@2x.png" id="d-boy-1" alt="Delivery-Boy">
+            </div>
+            <div class="image-2-none">
+                <img src="./public/images/Mask Group 25@2x.png" id="d-boy-1" alt="Delivery-Boy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-1 Part End -->
+
+    <!-- Section-2 Start -->
+
+    <section class="section-2">
+        <div class="full">
+            <div class="form-head">
+                <h1>Wish to make your workplace, <br> a Better Place?</h1>
+                <p>Help us understand your requirements.</p>
+            </div>
+            <form class="form-body" name="myform" method="post" action="/" method="get" required>
+                <div class="form-valid">
+                    <div class="form-box">
+                        <label for="name">First name *</label><br>
+                        <input type="text" id="fname" name="name" size="44" placeholder="Lorem Ipsum"
+                            onkeyup="this.value = this.value.toUpperCase()"; pattern="[A-Za-z\d\.]{6,16}" required><br>
+                    </div>
+                    <div class="form-box">
+                        <label for="email">Official Email ID *</label><br>
+                        <input type="email" id="femail" name="email" size="44" placeholder="sample@betterplace.com"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
+                    </div>
+                </div>
+                <div class="form-valid">
+                    <div class="form-box">
+                        <label for="email">Work Email ID *</label><br>
+                        <input type="email" id="femail" name="email" size="44" placeholder="sample@betterplace.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                    </div>
+                    <div class="form-box">
+                        <label for="name">Company Name *</label><br>
+                        <input type="text" id="fname" name="name" size="44" placeholder="Type your company name" pattern="[A-Za-z\d\.]{6,16}"><br>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <div action="">
+                        <h3>Organization size/ Number of employees <span class="check-tag">(Mark Only One)</span></h3>
+                        <input type="radio" name="Number of Employees">
+                        <label for="Less than 500">Less than 500</label>
+                        <input type="radio" name="Number of Employees">
+                        <label for="500 to 1000">500 to 1000</label>
+                        <input type="radio" name="Number of Employees">
+                        <label for="More than 1000">More than 1000</label><br>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <div action="">
+                        <h3>Product(s) Interested</h3>
+                        <input type="checkbox" name="Product(s) Interested" value="Verify">
+                        <label for="product-1">Verify</label>
+                        <input type="checkbox" name="Product(s) Interested" value="Onboard">
+                        <label for="product-1">Onboard</label>
+                        <input type="checkbox" name="Product(s) Interested" value="Attend">
+                        <label for="product-1">Attend</label>
+                        <input type="checkbox" name="Product(s) Interested" value="Payroll">
+                        <label for="product-1">Payroll</label>
+                        <input type="checkbox" name="Product(s) Interested" value="Upskill">
+                        <label for="product-1">Upskill</label>
+                    </div>
+                </div>
+                <div class="from-btn">
+                    <div action="">
+                        <input type="Submit" id="button" value="submit" onclick="SubmitClick()">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Section-2 End -->
+
+    <!-- Section-3 Part Start -->
+    <section class="section-3">
+        <div class="group-people">
+            <div class="people">
+                <img src="./public/images/What-We-Do-Blue-Collar-Workers@2x.png" alt="What We can Do">
+            </div>
+            <div class="people-text">
+                <p class="para-1">Get your organisation digitised down to the T</p>
+                <p class="para-2">Right from unorganised onboarding to unverified candidates posing business risks, from
+                    cumbersome management of shifts and overtime to efficient upskilling, BetterPlace HRMS takes care of
+                    it all. Digitally, immaculately and insightfully</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-3 End -->
+
+    <!-- Section-4 Part Start -->
+
+    <section class="section-4">
+        <div class="sec-4-text">
+            <h1>Explore the <br> BetterPlace Modules</h1>
+            <p>Our five robust modules help you build a workforce that’s not just digitally sound, but also more
+                skilled, efficient and aligned with your organisational growth. And with this, it gives you access to
+                critical employee data and actionable insights.</p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="img">
+                    <img src="./public/images/Mask Group 12@2x.png" alt="">
+                </div>
+                <div class="content">
+                    <p>Verify</p>
+                    <div class="title">
+                        30+ minutes lesser time per <br> onboarding
+                    </div>
+                    <ul class="review">
+                        <li>Quicker registration processes</li>
+                        <li>Bulk/API and individual onboarding</li>
+                        <li>Analytics-based insights</li>
+                        <li>Automated creation of compliance <br> documents- PF & ESI, company <br> documents</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./public/images/Mask Group 10@2x.png" alt="">
+                </div>
+                <div class="content">
+                    <p>Onboard</p>
+                    <div class="title">
+                        20+ million candidates <br> verified
+                    </div>
+                    <ul>
+                        <li>Comprehensive background <br> verification</li>
+                        <li>Pioneering blue-collar employee <br> verification system in India</li>
+                        <li>24/7, highly scalable infrastructure</li>
+                        <li>Accurate reporting with summary reports</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./public/images/Mask Group 11@2x.png" alt="">
+                </div>
+                <div class="content">
+                    <p>Attend</p>
+                    <div class="title">
+                        50+ million check-ins across <br> 5,000 sites
+                    </div>
+                    <ul>
+                        <li>State-of-the-art tracking solution <br> for on-ground workforce</li>
+                        <li>Full-proof attendance system</li>
+                        <li>Real-time insights & rostering</li>
+                        <li>Overtime management & automated <br> reports</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./public/images/Mask Group 9@2x.png" alt="">
+                </div>
+                <div class="content">
+                    <p>Payroll</p>
+                    <div class="title">
+                        95% reduction in payroll <br> processing time
+                    </div>
+                    <ul>
+                        <li>Easy overtime calculation with site-shift <br> assignments for different sites</li>
+                        <li>Configurable payroll rules & salary <br> structure template</li>
+                        <li>Automated salary rate and arrears <br> calculation</li>
+                        <li>Invoice & payslip generator</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./public/images/Mask Group 8@2x.png" alt="">
+                </div>
+                <div class="content">
+                    <p>Upskill</p>
+                    <div class="title">
+                        80% reduction in <br> training costs
+                    </div>
+                    <ul>
+                        <li>1.1 lakh workers upskilled</li>
+                        <li>Training modules in 35+ languages</li>
+                        <li>Flexible, scalable, cost-effective mobile <br> SaaS platform</li>
+                        <li>Offline learning, interactive notice <br> boards & contextual learning</li>
+                        <li>Knowledge checks and analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sec-4-btn">
+            <button>Schedule a Demo</button>
+        </div>
+    </section>
+    <!-- Section-4 End -->
+
+
+    <!-- Section-5 Start -->
+
+    <section class="section-5">
+        <div class="sec-5-text">
+            <h1>Make a choice that’s trusted <br> by the most trusted names</h1>
+        </div>
+        <div class="brand">
+            <div class="brand-logo">
+                <img src="./public/images/amazon.png" alt="Amazon">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/google-pay.png" alt="GooglePay">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/udan.png" alt="Udaan">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/redbus.png" alt="Red Bus">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/fedex.png" alt="Fedex">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/lupin.png" alt="Lupin">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/nykka.png" alt="Nykka">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/pepperfry.png" alt="pepperfry">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/pinelab.png" alt="pinelab">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/metropolis.png" alt="metropolis">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/khata-book.png" alt="khata-book">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/rupek.png" alt="rupek">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/vogo.png" alt="vogo">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/neslate.png" alt="neslate">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/practo.png" alt="practo">
+            </div>
+            <div class="brand-logo">
+                <img src="./public/images/ola.png" alt="ola">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-5 End -->
+
+    <!-- Section-6 Start -->
+
+    <section class="section-6">
+        <div class="operation">
+            <div class="sec-6-text">
+                <h1>Manage your workforce seamlessly, control your operations swiftly</h1>
+            </div>
+            <div class="work-operation">
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/noun-save-time-hand-2690742@2x.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Save up to 80% time on <br> HR-related processes</p>
+                </div>
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/Group 39281@2x.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Save up to 60% direct <br> or indirect expenses</p>
+                </div>
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/Group 39284@2x.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Have 100% compliance <br> with labour laws <br> effortlessly</p>
+                </div>
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/Group 39727@2x.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Reduce business-related <br> risks with 5+ Lakh profile <br> checks every
+                        month</p>
+                </div>
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/Mask_Group_111_2x-removebg-preview.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Lower cost of <br> engagement by 15%</p>
+                </div>
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/Mask_Group_112_2x-removebg-preview.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Lower attrition <br> by 12%</p>
+                </div>
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/Mask_Group_113_2x-removebg-preview.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Have 27% <br> better efficiency</p>
+                </div>
+                <div class="work-force">
+                    <div class="work-men">
+                        <img src="./public/images/Mask_Group_114_2x-removebg-preview.png" alt="save-time">
+                    </div>
+                    <p class="work-instruct">Have 22% better <br> engagement</p>
+                </div>
+            </div>
+            <div class="operation-btn">
+                <button>Download the Brochure</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectio-6 End -->
+
+    <!-- Section-7 Start -->
+
+    <section class="section-7">
+        <div class="explore">
+            <div class="job-navigation">
+                <div class="job-text">
+                    <h1>Explore how BetterPlace <br> worked wonders for top enterprises</h1>
+                </div>
+                <div class="job-btn">
+                    <span class="arrow"><img src="./public/images/Icon feather-arrow-left-circle@2x.png" alt=""></span>
+                    <span class="arrow"><img src="./public/images/Icon feather-arrow-right-circle@2x.png" alt=""></span>
+                </div>
+            </div>
+            <div class="enterprise">
+                <div class="worked-1">
+                    <div class="work-img-1"><img src="./public/images/Group 39659@2x.png" alt=""></div>
+                    <div class="work-text-1">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="worked-2">
+                    <div class="work-img-2"><img src="./public/images/Group 39659@2x.png" alt=""></div>
+                    <div class="work-text-2">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="worked-3">
+                    <div class="work-img-3"><img src="./public/images/Group 39659@2x.png" alt=""></div>
+                    <div class="work-text-3">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-7 End -->
+
+    <!-- Section-8 Start -->
+
+    <section class="section-8">
+        <div class="sec-8">
+            <div class="news">
+                <h1>BetterPlace in the news</h1>
+            </div>
+            <div class="slider">
+                <div class="card">
+                    <div class="img">
+                        <img src="../public/images/img1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Betterplace Continues Acquisition Spree, Buys Ezedox In All-Cash Deal
+                        </div>
+                        <p>
+                            With EzeDox, BetterPlace completed its 4th acquisition in the last 10 months. This will
+                            enable
+                            enterprises to automate their frontline workforce management within minutes.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="../public/images/img2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Betterplace Raises $24 Million In Funding Led By Jungle Ventures, <br> Cx Partners
+                        </div>
+                        <p>
+                            Using the fresh funds, BetterPlace will continue investing in technologies to cater to the
+                            growing demand while acquiring niche solutions for faster adoption of new modules
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="../public/images/img3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Betterplace Launches A Mobile App To Empower Blue-Collared Workforce
+                        </div>
+                        <p>
+                            In line with its promise to consistently empower the blue-collared workforce, BetterPlace is
+                            enabling opportunities for millions looking out for a job across India
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-8 end -->
+
+    <!-- Footer start -->
+
+    <footer>
+        <div class="foot">
+            <p>Copyright 2022 - All rights reserved | Privacy Policy</p>
+            <p class="p-1">Marketed by: Amura</p>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./src/form.js"></script>
+</body>
+
+</html>
